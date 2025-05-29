@@ -1,20 +1,9 @@
 <template>
   <div class="min-h-screen gradient-bg">
-    <!-- Navigation -->
-    <!-- <nav
-      class="fixed top-0 left-0 right-0 z-50 border-b border-pink-100 bg-white/80 backdrop-blur-md"
-    >
-      <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div class="flex items-center justify-center h-16">
-          <span class="text-2xl font-bold text-pink-600 font-dancing">Tied The Knot</span>
-        </div>
-      </div>
-    </nav> -->
-
     <!-- Hero Section -->
     <section
       id="home"
-      class="relative flex items-center justify-center min-h-screen pt-16 overflow-hidden"
+      class="relative flex items-center justify-center min-h-[100dvh] pt-16 overflow-hidden"
     >
       <!-- Decorative Elements -->
       <div class="absolute inset-0 overflow-hidden">
@@ -33,23 +22,12 @@
 
         <!-- Sparkles -->
         <div class="sparkle top-1/4 left-1/4" style="animation-delay: 0s"></div>
-        <div
-          class="sparkle top-1/3 right-1/4"
-          style="animation-delay: 0.5s"
-        ></div>
-        <div
-          class="sparkle bottom-1/3 left-1/3"
-          style="animation-delay: 1s"
-        ></div>
-        <div
-          class="sparkle bottom-1/4 right-1/3"
-          style="animation-delay: 1.5s"
-        ></div>
+        <div class="sparkle top-1/3 right-1/4" style="animation-delay: 0.5s"></div>
+        <div class="sparkle bottom-1/3 left-1/3" style="animation-delay: 1s"></div>
+        <div class="sparkle bottom-1/4 right-1/3" style="animation-delay: 1.5s"></div>
       </div>
 
-      <div
-        class="container relative z-10 px-4 mx-auto text-center sm:px-6 lg:px-8"
-      >
+      <div class="container relative z-10 px-4 mx-auto text-center sm:px-6 lg:px-8">
         <div class="max-w-4xl mx-auto fade-in">
           <!-- Save the Date -->
           <div
@@ -60,16 +38,14 @@
 
           <!-- Names -->
           <h1
-            class="mb-10 text-5xl font-bold text-pink-500 font-dancing sm:text-6xl lg:text-8xl"
+            class="mb-10 text-5xl font-bold text-pink-500 font-dancing sm:text-6xl lg:text-8xl font-kaushan"
           >
-            Tied The Knot 
+            Tied The Knot
             <!-- <span class="text-pink-500 heart-pulse">♥</span> -->
           </h1>
 
           <!-- CTA Buttons -->
-          <div
-            class="flex items-center justify-center gap-4 "
-          >
+          <div class="flex items-center justify-center gap-4">
             <button
               class="px-8 py-2 text-sm font-medium text-white rounded-full shadow-lg cursor-pointer md:text-lg btn-hover bg-gradient-to-r from-pink-500 to-rose-500 font-inter hover:shadow-xl"
             >
@@ -87,12 +63,9 @@
             <blockquote
               class="text-lg italic leading-relaxed text-gray-700 font-playfair sm:text-xl"
             >
-              "Two souls with but a single thought, two hearts that beat as
-              one."
+              "Two souls with but a single thought, two hearts that beat as one."
             </blockquote>
-            <cite class="block mt-4 text-sm text-gray-500 font-inter"
-              >— John Keats</cite
-            >
+            <cite class="block mt-4 text-sm text-gray-500 font-inter">— John Keats</cite>
           </div>
         </div>
       </div>
