@@ -2,11 +2,11 @@
   <section class="h-[100svh] w-full bg-[#6B7462]">
     <div class="relative h-full">
       <NuxtImg
-        src="https://ik.imagekit.io/2rrf00fq0/Tied%20The%20Knot/MARTUPOL%20-%20TULANG%20KUKI%20&%20NANTULANG%20ATI-194%201.png?updatedAt=1748489952956"
+        src="https://ik.imagekit.io/2rrf00fq0/tiedtheknot/hero-image.png"
         class="w-full h-auto object-cover md:w-full md:h-auto lg:object-cover mx-auto"
       />
       <div
-        class="absolute h-full top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-[#6B7462]/40 md:from-[#6B7462]/60 from-0% via-[#343830] via-58% to-[#10140D] to-100%"
+        class="absolute h-full top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-[#6B7462]/50 md:from-[#6B7462]/60 from-0% via-[#343830] via-50% to-[#10140D] to-100%"
       ></div>
       <div
         class="w-full max-w-sm absolute top-[40%] md:top-1/2 left-1/2 transform -translate-x-1/2 lg:-translate-y-1/2 z-10"
