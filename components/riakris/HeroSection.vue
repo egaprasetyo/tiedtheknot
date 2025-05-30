@@ -1,7 +1,7 @@
 <template>
   <section class="h-[100svh] w-full bg-[#6B7462]">
     <div class="relative h-full">
-      <NuxtImg
+      <img
         src="https://ik.imagekit.io/2rrf00fq0/tiedtheknot/hero-image.png"
         class="w-full h-auto object-cover md:w-full md:h-auto lg:object-cover mx-auto"
       />
