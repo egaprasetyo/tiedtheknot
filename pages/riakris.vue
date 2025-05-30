@@ -10,13 +10,19 @@
       <div v-if="isOpen" key="invitation" class="min-h-screen">
         <BibleSection />
         <GroomsSection />
+        <InformationWedding />
+        <Gallery />
+        <Rsvp />
+        <WishesForm />
+        <Footer />
       </div>
     </Transition>
   </div>
 </template>
 
 <script setup>
-const isOpen = ref(false)
+const device = useDevice()
+const isOpen = ref(true)
 
 const handleOpen = () => {
   isOpen.value = true

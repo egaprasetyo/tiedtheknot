@@ -2,23 +2,32 @@
   <div>
     <div class="relative">
       <NuxtImg
-        src="https://ik.imagekit.io/2rrf00fq0/Tied%20The%20Knot/pic1.png"
-        alt=""
+        provider="imagekit"
+        src="/hero-image-2.png"
+        alt="Woman and Men"
         class="w-full h-auto object-cover"
       />
-
-      <NuxtImg
-        src="https://ik.imagekit.io/2rrf00fq0/Tied%20The%20Knot/bg-wave.png"
-        class="w-full absolute -bottom-[1px] left-0 right-0"
-      />
+      <div
+        class="absolute top-0 bottom-0 left-0 right-0 z-10 bg-gradient-to-t from-[#6B7462]/100 from-5% to-[#C9DAB8]/5"
+      ></div>
     </div>
-    <div class="bg-[#6B7462] h-[300px] px-4 flex justify-center items-center">
+    <div class="bg-[#6B7462] h-[350px] px-4 flex justify-center items-center">
       <div class="-mt-8">
-        <p class="text-center text-white text-lg font-playwrite-au-sa">
+        <p
+          data-aos="zoom-in"
+          data-aos-duration="800"
+          class="text-center text-[#FFFEF8] text-lg font-playwrite-au-sa"
+        >
           “Dan di atas semuanya itu: kenakanlah kasih, sebagai pengikat yang mempersatukan dan
           menyempurnakan”
         </p>
-        <span class="text-sm text-white block text-center mt-6">Kolese 3:14</span>
+        <span
+          data-aos="fade-up"
+          data-aos-duration="800"
+          class="text-sm text-[#FFFEF8] block text-center mt-6"
+        >
+          Kolese 3:14
+        </span>
       </div>
     </div>
     <NuxtImg

@@ -10,6 +10,19 @@
   --font-playwrite-au-sa: 'Playwrite AU SA', cursive;
 }
 
+@theme {
+  --animate-sway: sway 5s ease-in-out infinite;
+  @keyframes sway {
+    0%,
+    100% {
+      transform: translateX(0) rotate(-90deg);
+    }
+    50% {
+      transform: translateX(-15px) rotate(-95deg);
+    }
+  }
+}
+
 * {
   font-family: var(--font-roboto);
 }
