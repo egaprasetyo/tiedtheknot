@@ -13,9 +13,16 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css', '~/assets/css/transitions.css'],
 
+  image: {
+    imagekit: {
+      baseURL: 'https://ik.imagekit.io/2rrf00fq0/tiedtheknot'
+    }
+  },
+
   fonts: {
     provider: 'google'
   },
+
   tailwindcss: {
     exposeConfig: true,
     viewer: true
