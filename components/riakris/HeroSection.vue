@@ -45,30 +45,35 @@
       <NuxtImg
         provider="imagekit"
         src="/flower3.png"
+        alt="Flower"
         class="w-[190px] h-auto absolute -bottom-[140px] -left-[10px] z-10 opacity-85 animate-sway rotate-[10deg]"
       />
 
       <NuxtImg
         provider="imagekit"
         src="/flower1.png"
+        alt="Flower"
         class="w-[180px] h-auto absolute -bottom-[130px] left-[20%] z-10 opacity-85 animate-sway rotate-[50deg]"
       />
 
       <NuxtImg
         provider="imagekit"
         src="/flower3.png"
+        alt="Flower"
         class="w-[140px] h-auto absolute -bottom-[120px] right-[8%] z-10 opacity-85 animate-sway rotate-[180deg]"
       />
 
       <NuxtImg
         provider="imagekit"
         src="/flower1.png"
+        alt="Flower"
         class="w-[170px] h-auto absolute -bottom-[70px] -right-[20px] z-10 opacity-85 animate-sway rotate-[180deg]"
       />
 
       <NuxtImg
         provider="imagekit"
         src="/flower2.png"
+        alt="Flower"
         class="w-[180px] h-auto absolute -bottom-[130px] right-[30%] z-10 opacity-85 animate-sway -rotate-[40deg]"
       />
 
