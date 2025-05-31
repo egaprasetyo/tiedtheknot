@@ -14,7 +14,7 @@
         <InformationWedding />
         <Gallery />
         <Rsvp />
-        <Gift />
+        <Gift v-if="isGift === 'true'" />
         <WishesForm />
         <Footer />
         <button
@@ -32,7 +32,10 @@
 <script setup>
 const { $refreshAos, $refreshHardAos } = useNuxtApp()
 const device = useDevice()
+const route = useRoute()
 const isOpen = ref(false)
+
+const isGift = route.query.gift
 
 onMounted(() => {
   $refreshAos()
