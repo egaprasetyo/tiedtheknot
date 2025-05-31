@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-8 pt-20 relative">
+  <div class="mt-8 pt-28 relative">
     <h1
       data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
@@ -53,60 +53,102 @@
       </div>
     </div>
 
-    <div data-aos="fade-right" data-aos-duration="2500" class="absolute -top-[60px] -right-[140px]">
-      <NuxtImg
-        provider="imagekit"
-        src="/Leaf%20Dark%20Green.png"
-        class="w-[250px] h-auto opacity-20 animate-sway"
-        alt="Leaf"
-      />
-    </div>
-
+    <!-- Border -->
     <NuxtImg
       provider="imagekit"
-      src="/Vector.png"
-      class="w-[35px] h-auto absolute top-[20%] right-[6%] -rotate-[15deg] opacity-20"
+      src="/border-left.png"
+      class="w-[80px] absolute top-0 h-auto -left-[50px]"
+      alt="Leaf"
+    />
+    <NuxtImg
+      provider="imagekit"
+      src="/border-left.png"
+      class="w-[80px] absolute bottom-0 h-auto -left-[50px]"
+      alt="Leaf"
+    />
+    <NuxtImg
+      provider="imagekit"
+      src="/border-left.png"
+      class="w-[80px] absolute top-0 h-auto -right-[50px] scale-[-1]"
+      alt="Leaf"
+    />
+    <NuxtImg
+      provider="imagekit"
+      src="/border-left.png"
+      class="w-[80px] absolute bottom-0 h-auto -right-[50px] scale-[-1]"
+      alt="Leaf"
+    />
+    <!-- Border -->
+
+    <!-- Right -->
+    <NuxtImg
+      provider="imagekit"
+      src="/flower1.png"
+      class="w-[150px] absolute bottom-[50%] h-auto -right-[70px] scale-[-1] -rotate-70 animate-sway"
       alt="Leaf"
     />
 
-    <div data-aos="fade-right" data-aos-duration="1500" class="absolute -top-[50px] -left-[150px]">
-      <NuxtImg
-        provider="imagekit"
-        src="/Leaf%20Dark%20Green.png"
-        class="w-[280px] h-auto rotate-[160deg] opacity-25 animate-sway"
-        alt="Leaf"
-      />
-    </div>
-
-    <div data-aos="zoom-in-right" data-aos-duration="2000" class="absolute top-[50%] -left-[70px]">
-      <NuxtImg
-        provider="imagekit"
-        src="/Leaf%20%2034%20-%20Dark%20Green.png"
-        class="w-[200px] h-auto opacity-20 rotate-[90deg] animate-sway"
-        alt="Leaf"
-      />
-    </div>
-
     <NuxtImg
       provider="imagekit"
-      src="/Vector.png"
-      class="w-[30px] h-auto absolute top-[39%] left-[6%] opacity-20 rotate-[20deg] scale-x-[-1]"
+      src="/flower3.png"
+      class="w-[125px] absolute bottom-[44%] h-auto -right-[85px] scale-[-1] -rotate-[112deg] animate-sway z-20"
       alt="Leaf"
     />
 
-    <div data-aos="zoom-out-left" data-aos-duration="1200" class="absolute top-[46%] -right-[50px]">
-      <NuxtImg
-        provider="imagekit"
-        src="/Leaf%20%2026%20-%20Dark%20Green.png"
-        class="w-[120px] h-auto rotate-[90deg] opacity-20 animate-sway"
-        alt="Leaf"
-      />
-    </div>
+    <NuxtImg
+      provider="imagekit"
+      src="/flower2.png"
+      class="w-[125px] absolute bottom-[40%] h-auto -right-[55px] scale-[-1] rotate-[60deg] animate-sway z-10"
+      alt="Leaf"
+    />
 
     <NuxtImg
       provider="imagekit"
-      src="/Vector.png"
-      class="w-[30px] h-auto absolute bottom-[30%] right-[6%] opacity-20 rotate-[5deg] scale-x-[-1]"
+      src="/flower1.png"
+      class="w-[150px] absolute bottom-[36%] h-auto -right-[70px] scale-[-1] rotate-[140deg] animate-sway z-20"
+      alt="Leaf"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower3.png"
+      class="w-[125px] absolute bottom-[30%] h-auto -right-[55px] scale-[-1] rotate-[112deg] animate-sway z-10"
+      alt="Leaf"
+    />
+
+    <!-- Left -->
+    <NuxtImg
+      provider="imagekit"
+      src="/flower1.png"
+      class="w-[150px] absolute bottom-[50%] h-auto -left-[70px] rotate-[125deg] animate-sway"
+      alt="Leaf"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower3.png"
+      class="w-[125px] absolute bottom-[44%] h-auto -left-[85px] rotate-[200deg] animate-sway z-20"
+      alt="Leaf"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower2.png"
+      class="w-[125px] absolute bottom-[40%] h-auto -left-[55px] rotate-[50deg] animate-sway z-10"
+      alt="Leaf"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower1.png"
+      class="w-[150px] absolute bottom-[36%] h-auto -left-[70px] -rotate-[80deg] animate-sway z-20"
+      alt="Leaf"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower3.png"
+      class="w-[125px] absolute bottom-[30%] h-auto -left-[55px] -rotate-[112deg] animate-sway z-10"
       alt="Leaf"
     />
   </div>

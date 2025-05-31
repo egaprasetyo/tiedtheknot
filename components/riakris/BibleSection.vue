@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="relative">
     <div class="relative">
       <NuxtImg
         provider="imagekit"
@@ -7,11 +7,13 @@
         alt="Woman and Men"
         class="w-full h-auto object-cover"
       />
+      <NuxtImg provider="imagekit" src="/Wave-green-1.png" class="w-full absolute bottom-0 z-20" />
+
       <div
-        class="absolute top-0 bottom-0 left-0 right-0 z-10 bg-gradient-to-t from-[#6B7462]/100 from-5% to-[#C9DAB8]/5"
+        class="absolute top-0 -bottom-[100px] left-0 right-0 z-10 bg-gradient-to-t from-[#70A07C]/100 from-0% to-[#FFFFFF]/5 to-100%"
       ></div>
     </div>
-    <div class="bg-[#6B7462] h-[350px] px-4 flex justify-center items-center">
+    <div class="relative z-20 -mt-4 bg-[#70A07C] h-[350px] px-4 flex justify-center items-center">
       <div class="-mt-8">
         <p
           data-aos="zoom-in"
@@ -30,9 +32,48 @@
         </span>
       </div>
     </div>
+    <!-- right -->
     <NuxtImg
-      src="https://ik.imagekit.io/2rrf00fq0/Tied%20The%20Knot/iPhone%2013%20&%2014%20-%203.png"
-      class="w-full -mt-1"
+      provider="imagekit"
+      src="/flower4.png"
+      class="w-[85px] h-auto absolute -bottom-[50px] z-20 right-0 animate-sway rotate-90"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower3.png"
+      class="w-[145px] h-auto absolute -bottom-[100px] z-30 right-3 animate-sway rotate-35 scale-x-[-1]"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower1.png"
+      class="w-[165px] h-auto absolute -bottom-[90px] z-20 right-[0] animate-sway -rotate-50 scale-x-[-1]"
+    />
+
+    <!-- left -->
+    <NuxtImg
+      provider="imagekit"
+      src="/flower4.png"
+      class="w-[85px] h-auto absolute -bottom-[50px] z-20 left-0 animate-sway -rotate-90 scale-x-[-1]"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower3.png"
+      class="w-[145px] h-auto absolute -bottom-[100px] z-30 left-3 animate-sway -rotate-40"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower2.png"
+      class="w-[170px] h-auto absolute -bottom-[100px] z-20 left-[25%] animate-sway rotate-200 scale-x-[-1]"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower1.png"
+      class="w-[165px] h-auto absolute -bottom-[90px] z-30 left-[30%] animate-sway rotate-40"
     />
   </div>
 </template>

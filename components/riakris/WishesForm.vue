@@ -1,10 +1,9 @@
 <template>
-  <section class="py-14 px-4">
-    <div
-      data-aos="zoom-out-down"
-      data-aos-duration="1200"
-      class="bg-[#6B7462] px-4 py-8 rounded-xl flex flex-col items-center"
-    >
+  <section data-aos="zoom-out-down" data-aos-duration="1200" class="relative py-14 mt-28 px-4">
+    <!-- <div class="absolute top-[10px] left-1/2 -translate-1/2 z-10">
+      <NuxtImg provider="imagekit" src="/flower8.png" class="min-w-[350px] h-auto" />
+    </div> -->
+    <div class="relative z-20 bg-[#6B7462] px-4 py-8 rounded-xl flex flex-col items-center">
       <h3 class="font-dancing-script text-2xl text-[#FFFEF8] text-center max-w-[300px]">
         Kirimkan doa & ucapan kepada kedua mempelai
       </h3>

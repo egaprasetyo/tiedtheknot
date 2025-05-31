@@ -1,10 +1,10 @@
 <template>
-  <section class="px-4 py-20">
+  <section class="px-4 pt-30 pb-20">
     <div>
       <h3
         data-aos="zoom-in"
         data-aos-duration="1500"
-        class="font-dancing-script text-3xl text-[#6B7462] text-center"
+        class="font-dancing-script text-3xl text-[#6B7462] text-center font-semibold"
       >
         RSVP
       </h3>

@@ -1,14 +1,72 @@
 <template>
-  <section>
-    <NuxtImg provider="imagekit" src="/wave-2.png" class="w-full opacity-20" />
-    <div class="bg-linear-to-b from-[#6B7462]/20 to-[FFFEF8]/0 pb-20 pt-10 space-y-24">
-      <div>
+  <section class="relative">
+    <NuxtImg provider="imagekit" src="/wave-mid.png" class="w-full" />
+
+    <!-- Left -->
+    <NuxtImg
+      provider="imagekit"
+      src="/flower1.png"
+      class="w-[150px] absolute -top-[100px] h-auto -left-[70px] rotate-[125deg] animate-sway"
+      alt="Leaf"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower1.png"
+      class="w-[150px] absolute -top-[100px] h-auto -left-[50px] -rotate-[50deg] animate-sway"
+      alt="Leaf"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower1.png"
+      class="w-[150px] absolute -top-[10px] h-auto -left-[50px] -rotate-[58deg] animate-sway"
+      alt="Leaf"
+    />
+
+    <!-- right -->
+    <NuxtImg
+      provider="imagekit"
+      src="/flower1.png"
+      class="w-[150px] absolute -top-[100px] h-auto -right-[80px] rotate-[125deg] animate-sway"
+      alt="Leaf"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower1.png"
+      class="w-[150px] absolute -top-[100px] h-auto -right-[65px] -rotate-[50deg] animate-sway"
+      alt="Leaf"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower1.png"
+      class="w-[150px] absolute -top-[10px] h-auto -right-[70px] -rotate-[58deg] animate-sway"
+      alt="Leaf"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower5.png"
+      class="w-[300px] h-auto absolute -top-[50px] left-1/2 -translate-x-1/2 z-20 animate-sway rotate-[92deg]"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/gate.png"
+      class="min-w-[560px] min-h-auto absolute top-[11px] left-1/2 -translate-x-1/2 z-10"
+    />
+
+    <div class="bg-linear-to-b from-[#88B889]/40 to-[FFFEF8]/0 pb-20 pt-16 space-y-14">
+      <div class="relative z-50">
         <h3
           data-aos="fade-down"
           data-aos-duration="1500"
           class="font-beau-rivage text-4xl text-[#394231] text-center"
         >
-          Pemberkatan Pernikahan
+          Pemberkatan <br />
+          Pernikahan
         </h3>
         <div
           data-aos="zoom-out-down"
@@ -18,8 +76,8 @@
           <p class="font-stix-two-text text-base max-w-xs text-[#6B7462] text-center">
             6 Juni 2025 <br />
             GKPA Depok <br />
-            Jl. Kenanga No. 12, Kec. Pancoran Mas, Kota <br />
-            Depok, Jawa Barat <br />
+            Jl. Kenanga No. 12, Kec. Pancoran Mas, <br />
+            Kota Depok, Jawa Barat <br />
             Pukul 09.00 - 10.00 WIB
           </p>
           <NuxtLink
@@ -31,7 +89,7 @@
           </NuxtLink>
         </div>
       </div>
-      <div>
+      <div class="relative z-50">
         <h3
           data-aos="zoom-in-up"
           data-aos-duration="1500"
@@ -47,8 +105,8 @@
           <p class="font-stix-two-text text-base max-w-xs text-[#6B7462] text-center">
             6 Juni 2025 <br />
             Gedung RONATAMA Conventio Hall <br />
-            Jl. Dahlia No. 16A, Kec. Pancoran Mas,Kota <br />
-            Depok, Jawa Barat <br />
+            Jl. Dahlia No. 16A, Kec. Pancoran Mas, <br />
+            Kota Depok, Jawa Barat <br />
             Pukul 11.00 - 14.00 WIB
           </p>
           <NuxtLink
@@ -60,7 +118,7 @@
           </NuxtLink>
         </div>
       </div>
-      <div class="flex justify-center px-8">
+      <div class="flex justify-center px-8 pt-20">
         <div
           data-aos="flip-up"
           data-aos-duration="2000"
@@ -85,6 +143,18 @@
         </div>
       </div>
     </div>
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower6.png"
+      class="w-[150px] h-auto absolute bottom-[20%] -left-[45px] animate-sway z-20 rotate-[95deg]"
+    />
+
+    <NuxtImg
+      provider="imagekit"
+      src="/flower6.png"
+      class="w-[150px] h-auto absolute bottom-[20%] -right-[50px] animate-sway z-20 rotate-[30deg]"
+    />
   </section>
 </template>
 

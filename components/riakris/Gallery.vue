@@ -1,65 +1,22 @@
 <template>
-  <section class="px-4 py-20">
-    <div data-aos="zoom-in" data-aos-duration="1200">
-      <h3 class="font-beau-rivage text-3xl text-[#394231] text-center">
-        “Love does not consist in gazing at each other, but in looking outward together in the same
-        direction.”
-      </h3>
-      <p class="font-stix-two-text text-base text-[#394231] text-center mt-2">
-        — Antoine de Saint-Exupéry
-      </p>
+  <section class="relative">
+    <div class="px-4 pb-20 pt-10">
+      <div data-aos="zoom-in" data-aos-duration="1200">
+        <h3 class="font-beau-rivage text-3xl text-[#394231] text-center">
+          “Love does not consist in gazing at each other, but in looking outward together in the
+          same direction.”
+        </h3>
+        <p class="font-stix-two-text text-base text-[#394231] text-center mt-2">
+          — Antoine de Saint-Exupéry
+        </p>
+      </div>
     </div>
-    <div class="mt-30">
-      <div class="grid grid-cols-3 gap-4 mt-4">
-        <div data-aos="fade-right" data-aos-duration="1000">
-          <NuxtImg
-            provider="imagekit"
-            src="/wedding-hero.png"
-            class="w-full h-auto rounded-lg"
-            alt="Groom"
-          />
-        </div>
-        <div></div>
-        <div data-aos="zoom-in-left" data-aos-duration="2000">
-          <NuxtImg
-            provider="imagekit"
-            src="/wedding-hero.png"
-            class="w-full h-auto rounded-lg"
-            alt="Groom"
-          />
-        </div>
-      </div>
-      <div class="grid grid-cols-3 gap-4 mt-4">
-        <div></div>
-        <div data-aos="zoom-in" data-aos-duration="1500">
-          <NuxtImg
-            provider="imagekit"
-            src="/wedding-hero.png"
-            class="w-full h-auto rounded-lg"
-            alt="Groom"
-          />
-        </div>
-        <div></div>
-      </div>
-      <div class="grid grid-cols-3 gap-4 mt-4">
-        <div data-aos="zoom-out-right" data-aos-duration="1000">
-          <NuxtImg
-            provider="imagekit"
-            src="/wedding-hero.png"
-            class="w-full h-auto rounded-lg"
-            alt="Groom"
-          />
-        </div>
-        <div></div>
-        <div data-aos="zoom-out-left" data-aos-duration="1800">
-          <NuxtImg
-            provider="imagekit"
-            src="/wedding-hero.png"
-            class="w-full h-auto rounded-lg"
-            alt="Groom"
-          />
-        </div>
-      </div>
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1500"
+      class="absolute -bottom-[95%] z-10 -translate-1/2 left-1/2"
+    >
+      <NuxtImg provider="imagekit" src="/flower7.png" class="min-w-[520px] h-auto" />
     </div>
   </section>
 </template>

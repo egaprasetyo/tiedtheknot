@@ -23,11 +23,7 @@
   }
 }
 
-* {
-  font-family: var(--font-roboto);
-}
-
-.font-robot {
+/* .font-robot {
   font-family: var(--font-robot);
 }
 
@@ -51,4 +47,4 @@
 
 .font-playwrite-au-sa {
   font-family: var(--font-playwrite-au-sa);
-}
+} */
