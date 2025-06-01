@@ -108,7 +108,7 @@
         >
           <p class="font-stix-two-text text-base max-w-xs text-[#6B7462] text-center">
             6 Juni 2025 <br />
-            Gedung RONATAMA Conventio Hall <br />
+            Gedung RONATAMA Convention Hall <br />
             Jl. Dahlia No. 16A, Kec. Pancoran Mas, <br />
             Kota Depok, Jawa Barat <br />
             Pukul 11.00 - 14.00 WIB
