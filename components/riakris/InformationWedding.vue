@@ -62,14 +62,16 @@
       <div class="relative z-50">
         <h3
           data-aos="fade-down"
+          data-aos-offset="10"
           data-aos-duration="1500"
-          class="font-beau-rivage text-4xl text-[#394231] text-center"
+          class="font-beau-rivage text-4xl text-[#394231] text-center font-semibold"
         >
           Pemberkatan <br />
           Pernikahan
         </h3>
         <div
           data-aos="zoom-out-down"
+          data-aos-offset="10"
           data-aos-duration="1800"
           class="flex flex-col items-center mt-6"
         >
@@ -92,13 +94,15 @@
       <div class="relative z-50">
         <h3
           data-aos="zoom-in-up"
+          data-aos-offset="10"
           data-aos-duration="1500"
-          class="font-beau-rivage text-4xl text-[#394231] text-center"
+          class="font-beau-rivage text-4xl text-[#394231] text-center font-semibold"
         >
           Resepsi
         </h3>
         <div
           data-aos="zoom-out-up"
+          data-aos-offset="10"
           data-aos-duration="1800"
           class="flex flex-col items-center mt-6"
         >
@@ -122,22 +126,31 @@
         <div
           data-aos="flip-up"
           data-aos-duration="2000"
+          data-aos-offset="10"
           class="bg-[#8B9182] py-2.5 px-6 w-full rounded-lg flex items-center justify-around"
         >
           <div class="flex flex-col items-center justify-center">
-            <span class="font-stix-two-text text-3xl text-[#FFFEF8]">{{ timeLeft.days }}</span>
+            <span class="font-stix-two-text text-3xl text-[#FFFEF8] font-semibold">{{
+              timeLeft.days
+            }}</span>
             <span class="font-beau-rivage text-2xl text-[#FFFEF8]">Hari</span>
           </div>
           <div class="flex flex-col items-center justify-center">
-            <span class="font-stix-two-text text-3xl text-[#FFFEF8]">{{ timeLeft.hours }}</span>
+            <span class="font-stix-two-text text-3xl text-[#FFFEF8] font-semibold">{{
+              timeLeft.hours
+            }}</span>
             <span class="font-beau-rivage text-2xl text-[#FFFEF8]">Jam</span>
           </div>
           <div class="flex flex-col items-center justify-center">
-            <span class="font-stix-two-text text-3xl text-[#FFFEF8]">{{ timeLeft.minutes }}</span>
+            <span class="font-stix-two-text text-3xl text-[#FFFEF8] font-semibold">{{
+              timeLeft.minutes
+            }}</span>
             <span class="font-beau-rivage text-2xl text-[#FFFEF8]">Menit</span>
           </div>
           <div class="flex flex-col items-center justify-center">
-            <span class="font-stix-two-text text-3xl text-[#FFFEF8]">{{ timeLeft.seconds }}</span>
+            <span class="font-stix-two-text text-3xl text-[#FFFEF8] font-semibold">{{
+              timeLeft.seconds
+            }}</span>
             <span class="font-beau-rivage text-2xl text-[#FFFEF8]">Detik</span>
           </div>
         </div>

@@ -1,16 +1,22 @@
 <template>
-  <div class="mt-8 pt-28 relative">
+  <div class="mt-8 pt-28 relative bg-[#FFFEF8]">
     <h1
       data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
       data-aos-duration="1000"
+      data-aos-offset="10"
       class="text-center text-[#6B7462] text-4xl font-bold font-dancing-script"
     >
       Pernikahan
     </h1>
 
     <div class="mt-16 pb-30">
-      <div data-aos="zoom-in" data-aos-duration="1500" class="flex flex-col items-center">
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="1500"
+        data-aos-offset="10"
+        class="flex flex-col items-center"
+      >
         <NuxtImg
           provider="imagekit"
           src="/woman-border-green.png"
@@ -30,12 +36,18 @@
       <p
         data-aos="fade-down"
         data-aos-duration="1200"
+        data-aos-offset="10"
         class="font-dancing-script font-bold text-xl text-[#6B7462] my-16 text-center"
       >
         dengan
       </p>
 
-      <div data-aos="zoom-in" data-aos-duration="1800" class="flex flex-col items-center">
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="1800"
+        data-aos-offset="10"
+        class="flex flex-col items-center"
+      >
         <NuxtImg
           provider="imagekit"
           src="/men-border-green.png"

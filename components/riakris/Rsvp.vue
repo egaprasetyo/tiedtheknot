@@ -3,13 +3,15 @@
     <div>
       <h3
         data-aos="zoom-in"
+        data-aos-offset="10"
         data-aos-duration="1500"
-        class="font-dancing-script text-3xl text-[#6B7462] text-center font-semibold"
+        class="font-dancing-script text-3xl text-[#6B7462] text-center font-bold"
       >
         RSVP
       </h3>
       <p
         data-aos="fade-up"
+        data-aos-offset="10"
         data-aos-duration="2000"
         class="text-center mt-4 font-stix-two-text text-[#343830]"
       >
@@ -21,6 +23,7 @@
     <div
       v-if="!isSubmited"
       data-aos="zoom-in"
+      data-aos-offset="10"
       data-aos-duration="1800"
       class="mt-14 flex flex-col items-center h-[300px]"
     >

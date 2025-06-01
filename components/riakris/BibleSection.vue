@@ -13,23 +13,22 @@
         class="absolute top-0 -bottom-[100px] left-0 right-0 z-10 bg-gradient-to-t from-[#70A07C]/100 from-0% to-[#FFFFFF]/5 to-100%"
       ></div>
     </div>
-    <div class="relative z-20 -mt-4 bg-[#70A07C] h-[350px] px-4 flex justify-center items-center">
-      <div class="-mt-8">
-        <p
-          data-aos="zoom-in"
-          data-aos-duration="800"
-          class="text-center text-[#FFFEF8] text-lg font-playwrite-au-sa"
-        >
+    <div
+      class="relative z-20 -mt-4 bg-[#70A07C] h-[350px] px-4 flex flex-col justify-center items-center"
+    >
+      <MouseScroll class="absolute top-0 left-1/2 transform -translate-x-1/2 opacity-75" />
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="800"
+        data-aos-once="true"
+        data-aos-offset="0"
+        class="-mt-8"
+      >
+        <p class="text-center text-[#FFFEF8] text-lg font-playwrite-au-sa">
           “Dan di atas semuanya itu: kenakanlah kasih, sebagai pengikat yang mempersatukan dan
           menyempurnakan”
         </p>
-        <span
-          data-aos="fade-up"
-          data-aos-duration="800"
-          class="text-sm text-[#FFFEF8] block text-center mt-6"
-        >
-          Kolese 3:14
-        </span>
+        <span class="text-sm text-[#FFFEF8] block text-center mt-6"> Kolese 3:14 </span>
       </div>
     </div>
     <!-- right -->

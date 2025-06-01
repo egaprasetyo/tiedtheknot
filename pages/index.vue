@@ -73,6 +73,12 @@
   </div>
 </template>
 
+<script setup>
+useHead({
+  title: 'Tied The Knot'
+})
+</script>
+
 <style scoped>
 .gradient-bg {
   background: linear-gradient(

@@ -10,25 +10,27 @@
       <div
         class="absolute h-full top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-[#FFFFFF]/30 from-28% to-[#70A07C]/100 to-90%"
       ></div>
-      <div class="w-full max-w-sm absolute top-[50%] left-1/2 transform -translate-x-1/2 z-50">
-        <h1 class="font-montserrat text-xs md:text-sm text-[#070707] font-extrabold text-center">
+      <div
+        class="fade-in w-full max-w-sm absolute top-[50%] left-1/2 transform -translate-x-1/2 z-50"
+      >
+        <h1 class="font-montserrat text-xs md:text-sm text-[#070707] font-semibold text-center">
           THE WEDDING INVITATION OF
         </h1>
-        <div class="my-4 flex items-center justify-center gap-4 md:gap-10">
+        <div class="my-4 flex items-center justify-center gap-4">
           <p class="font-dancing-script text-7xl text-[#F7D05A] text-center font-bold">Ria</p>
           <p class="font-dancing-script text-5xl text-[#F7D05A] text-center">&</p>
           <p class="font-dancing-script text-7xl text-[#F7D05A] text-center font-bold">Kris</p>
         </div>
         <div class="flex flex-col items-center">
-          <p class="font-roboto font-bold text-[#070707] text-center">Dear,</p>
-          <span
-            class="capitalize inline-block text-center font-roboto text-2xl text-[#070707] font-extrabold py-1.5 px-14 rounded-lg"
+          <p class="font-montserrat font-semibold text-[#070707] text-center">Dear,</p>
+          <h2
+            class="capitalize inline-block text-center font-montserrat text-2xl text-[#070707] font-bold px-14 rounded-lg"
           >
             {{ name || '' }}
-          </span>
+          </h2>
           <button
             @click="handleOpen"
-            class="bg-[#4b7555] flex items-center gap-2 font-montserrat px-8 py-2.5 rounded-md font-extrabold mt-6 text-sm cursor-pointer text-white"
+            class="bg-[#4b7555] flex items-center gap-2 font-montserrat px-8 py-2.5 rounded-md font-semibold mt-6 text-sm cursor-pointer text-white"
           >
             <Icon name="simple-line-icons:envolope-letter" class="size-6 md:size-6 text-white" />
             OPEN INVITATION

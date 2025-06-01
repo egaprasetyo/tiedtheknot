@@ -1,7 +1,7 @@
 <template>
   <section class="relative">
     <div class="px-4 pb-20 pt-10">
-      <div data-aos="zoom-in" data-aos-duration="1200">
+      <div data-aos="zoom-in" data-aos-duration="1200" data-aos-offset="0">
         <h3 class="font-beau-rivage text-3xl text-[#394231] text-center">
           “Love does not consist in gazing at each other, but in looking outward together in the
           same direction.”

@@ -17,7 +17,12 @@
       src="/flower10.png"
       class="min-w-[485px] h-auto absolute -bottom-[120px] left-1/2 -translate-x-1/2 z-10"
     />
-    <div data-aos="zoom-in" data-aos-duration="1500" class="px-4 text-center py-20">
+    <div
+      data-aos="zoom-in"
+      data-aos-duration="1500"
+      data-aos-offset="10"
+      class="px-4 text-center py-20"
+    >
       <h3 class="font-dancing-script text-3xl text-[#6B7462] text-center">WEDDING GIFT</h3>
       <p class="font-stix-two-text text-[#343830] mt-4">
         Kehadiran dan doa restu Anda merupakan karunia bagi kami. Namun jika memberi adalah ungkapan

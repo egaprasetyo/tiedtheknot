@@ -1,6 +1,7 @@
 <template>
   <section
     data-aos="zoom-out-down"
+    data-aos-offset="10"
     data-aos-duration="1200"
     class="relative py-14 px-4"
     :class="{ 'mt-28': isGift == 'true' }"
@@ -42,7 +43,7 @@
 <script setup>
 const route = useRoute()
 
-const isGift = route.query.gift
+const isGift = route.query.ftvm
 
 const client = useSupabaseClient()
 

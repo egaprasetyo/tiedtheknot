@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import tailwindcss from '@tailwindcss/vite'
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
@@ -13,6 +15,10 @@ export default defineNuxtConfig({
     'nuxt-aos',
     '@nuxtjs/supabase'
   ],
+
+  vite: {
+    plugins: [tailwindcss()]
+  },
 
   components: [
     {
@@ -30,12 +36,16 @@ export default defineNuxtConfig({
   },
 
   fonts: {
-    provider: 'google'
+    provider: 'google',
+    defaults: {
+      weight: [200, 300, 400, 500, 600, 700, 800, 900]
+    }
   },
 
   tailwindcss: {
     exposeConfig: true,
-    viewer: true
+    viewer: true,
+    cssPath: '~/assets/css/main.css'
   },
 
   dayjs: {
