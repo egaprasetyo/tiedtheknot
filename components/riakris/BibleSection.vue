@@ -28,7 +28,7 @@
           “Dan di atas semuanya itu: kenakanlah kasih, sebagai pengikat yang mempersatukan dan
           menyempurnakan”
         </p>
-        <span class="text-sm text-[#FFFEF8] block text-center mt-6"> Kolese 3:14 </span>
+        <span class="text-sm text-[#FFFEF8] block text-center mt-6"> Kolose 3:14 </span>
       </div>
     </div>
     <!-- right -->
