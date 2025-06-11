@@ -59,7 +59,7 @@
             "{{ wish.wish }}"
           </p>
 
-          <div class="flex items-center justify-end text-gray-500 text-sm mt-4">
+          <div class="flex items-center justify-end text-gray-500 text-sm mt-4 gap-1">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
                 stroke-linecap="round"
@@ -68,7 +68,7 @@
                 d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
               />
             </svg>
-            {{ dayjs(wish.create_at).format('DD MMMM YYYY') }}
+            {{ dayjs(wish.created_at).format('DD MMMM YYYY') }}
           </div>
         </div>
       </div>
@@ -97,6 +97,10 @@
 </template>
 
 <script setup>
+useHead({
+  title: 'Wedding Wishes Ria & Kris'
+})
+
 const dayjs = useDayjs()
 
 const client = useSupabaseClient()
